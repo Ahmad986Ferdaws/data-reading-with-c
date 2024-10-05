@@ -5,7 +5,7 @@ int main() {
     // in this part we use the to point out the address of the file
     FILE *filePtr;
     char ch;
-
+    // we use the W function to open the text file
     filePtr = fopen("alphabet.txt", "w");
     if (filePtr == NULL) {
         printf("Error opening file for writing.\n");
