@@ -7,6 +7,7 @@ int main() {
     char ch;
     // we use the W function to open the text file
     filePtr = fopen("alphabet.txt", "w");
+    // here too we print out error if the file ptr is Null or empty
     if (filePtr == NULL) {
         printf("Error opening file for writing.\n");
         return 1;
