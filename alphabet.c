@@ -18,7 +18,7 @@ int main() {
     }
     // and we use the close function
     fclose(filePtr);
-
+    // and also here the r function to read the file
     filePtr = fopen("alphabet.txt", "r");
     if (filePtr == NULL) {
         printf("Error opening file for reading.\n");
