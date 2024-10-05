@@ -16,6 +16,7 @@ int main() {
     for (ch = 'A'; ch <= 'Z'; ch++) {
         fputc(ch, filePtr);
     }
+    // and we use the close function
     fclose(filePtr);
 
     filePtr = fopen("alphabet.txt", "r");
