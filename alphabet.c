@@ -2,7 +2,7 @@
 #include <ctype.h>
 // so this is one of the important projects
 int main() {
-    // in this part we use the to point out the address of the file
+    // in this part we use the to point out the address of the file sdj
     FILE *filePtr;
     char ch;
     // we use the W function to open the text file
