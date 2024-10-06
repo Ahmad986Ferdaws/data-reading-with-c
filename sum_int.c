@@ -12,7 +12,7 @@ int main() {
         printf("Error opening file for writing.\n");
         return 1;
     }
-
+    // Here we iretate through the array and devide the total of it by 5
     for (int i = 1; i <= 10; i++) {
         float sum = (float)num[i] / soom;
         fprintf(filePtr, "%.2f\n", sum);
