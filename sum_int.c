@@ -17,6 +17,7 @@ int main() {
         float sum = (float)num[i] / soom;
         fprintf(filePtr, "%.2f\n", sum);
     }
+    // we close the file
     fclose(filePtr);
 
     filePtr = fopen("average_sum.txt", "r");
