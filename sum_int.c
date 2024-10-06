@@ -7,6 +7,7 @@ int main() {
     int soom = 5;
     // Using the W function in We open a file in C
     filePtr = fopen("average_sum.txt", "w");
+    // here we declare that if the program couldnt open the file because the path is invalid, it will return error
     if (filePtr == NULL) {
         printf("Error opening file for writing.\n");
         return 1;
