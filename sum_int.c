@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    // Here we use the File Function to declare the address of the filePtr with the pointer
     FILE *filePtr;
     int num[] = {0,1,2,3,4,5,6,7,8,9,10};
     int soom = 5;
