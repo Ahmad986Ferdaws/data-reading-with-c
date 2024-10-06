@@ -3,7 +3,7 @@
 // so this is one of the important projects
 int main() {
     // in this part we use the to point out the address of the file sdj
-    // hello this is the thing
+    // hello this is the thing that i 
     FILE *filePtr;
     char ch;
     // we use the W function to open the text file
