@@ -19,7 +19,7 @@ int main() {
     }
     // we close the file
     fclose(filePtr);
-
+    // Same as before if the file cannot Read it, it will return invalid
     filePtr = fopen("average_sum.txt", "r");
     if (filePtr == NULL) {
         printf("Error opening file for reading.\n");
