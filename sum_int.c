@@ -26,7 +26,7 @@ int main() {
         printf("Error opening file for reading.\n");
         return 1;
     }
-
+    // and also this will be 
     float value;
     printf("Average values:\n");
     while (fscanf(filePtr, "%f", &value) != EOF) {
