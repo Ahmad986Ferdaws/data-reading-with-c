@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// Here we do declare the size of the Data_size
 #define DATA_SIZE 1000
 
 int main() {
