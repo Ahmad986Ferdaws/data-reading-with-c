@@ -9,7 +9,7 @@ int main() {
     float salary;
 // we use the to address the File for Null
     FILE *filePtr = NULL;
-
+//  Here we use the f open to open a text file by the name of emp_records
     filePtr = fopen("emp_records.txt", "w");
 
     if (filePtr == NULL) {
