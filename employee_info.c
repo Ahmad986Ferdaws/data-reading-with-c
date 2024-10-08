@@ -7,7 +7,7 @@ int main() {
     char name[50];
     int age;
     float salary;
-
+// we use the to address the File for Null
     FILE *filePtr = NULL;
 
     filePtr = fopen("emp_records.txt", "w");
