@@ -32,6 +32,7 @@ int main() {
     while (fscanf(filePtr, "%f", &value) != EOF) {
         printf("%.2f ", value);
     }
+    // and at the end we will use the fclose fucntion to  close the fucntion
     fclose(filePtr);
 
     return 0;
