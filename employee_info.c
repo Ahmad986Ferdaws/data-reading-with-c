@@ -11,7 +11,7 @@ int main() {
     FILE *filePtr = NULL;
 //  Here we use the f open to open a text file by the name of emp_records
     filePtr = fopen("emp_records.txt", "w");
-
+// if the file address is Null, it will print out Error
     if (filePtr == NULL) {
         printf("Error opening file!\n");
         return 1;
