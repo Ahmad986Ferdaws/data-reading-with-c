@@ -2,7 +2,7 @@
 #include <stdlib.h>
 // Here we do declare the size of the Data_size
 #define DATA_SIZE 1000
-
+// the main function here will take the name, age and the salary
 int main() {
     char name[50];
     int age;
