@@ -19,7 +19,7 @@ int main() {
 // here we use the printf function to and get to store the info of the user
     printf("Please enter the name of the employee: ");
     fgets(name, sizeof(name), stdin);
-
+// and here the same where we ask the age of the employee
     printf("Please enter the age of the employee: ");
     scanf("%d", &age);
 
