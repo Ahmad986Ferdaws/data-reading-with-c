@@ -16,7 +16,7 @@ int main() {
         printf("Error opening file!\n");
         return 1;
     }
-
+// here we use the printf function to and get to store the info of the user
     printf("Please enter the name of the employee: ");
     fgets(name, sizeof(name), stdin);
 
