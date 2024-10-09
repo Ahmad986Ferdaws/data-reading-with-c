@@ -5,7 +5,7 @@ int main() {
     // in this part we use the to point out the address of the file sdj
     // hello this is the thing that about the so what
     FILE *filePtr;
-    char ch;// 
+    char ch;// SO
     // we use the W function to open the text file
     filePtr = fopen("alphabet.txt", "w");
     // here too we print out error if the file ptr is Null or empty
